@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2009, Tom Lokovic
+// Copyright (c) 2009, Tom Lokovic
 // All rights reserved.
 // 
 // Redistribution and use in source and binary forms, with or without
@@ -144,6 +144,17 @@ namespace Midi
         #endregion
 
         #region Public Methods and Properties
+
+        /// <summary>
+        /// Refresh the list of input devices
+        /// </summary>
+        public static void UpdateInstalledDevices()
+        {
+            lock (staticLock)
+            {
+                installedDevices = null;
+            }
+        }
 
         /// <summary>
         /// List of input devices installed on this system.

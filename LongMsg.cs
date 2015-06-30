@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2011, Justin Ryan
+// Copyright (c) 2011, Justin Ryan
 
 using System;
 using System.Collections.Generic;
@@ -48,6 +48,7 @@ namespace Midi
             timestamp = (UInt32)dwParam2;
         }
 
+        /*
         /// <summary>
         /// Encodes a SysEx long message.
         /// </summary>
@@ -57,5 +58,6 @@ namespace Midi
         //public static UInt32 EncodeSysEx(Byte[] data)
         //{
         //}
+        */
     }
 }

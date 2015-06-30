@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2009, Tom Lokovic
+// Copyright (c) 2009, Tom Lokovic
 // All rights reserved.
 // 
 // Redistribution and use in source and binary forms, with or without
@@ -173,7 +173,7 @@ namespace Midi
         [StructLayout(LayoutKind.Sequential)]
         public struct HMIDIOUT
         {
-            public Int32 handle;
+            public IntPtr handle;
         }
 
         /// <summary>
@@ -182,7 +182,7 @@ namespace Midi
         [StructLayout(LayoutKind.Sequential)]
         public struct HMIDIIN
         {
-            public Int32 handle;
+            public IntPtr handle;
         }
 
         #endregion
