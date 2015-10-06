@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiExamples", "MidiExamples\MidiExamples.csproj", "{1A5F8ED9-D70D-4FF3-8153-72D9859FA89E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Midi", "Midi\Midi.csproj", "{F60D8B7B-2D2E-4B94-A736-3783FFE1A25C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiUnitTests", "MidiUnitTests\MidiUnitTests.csproj", "{EFE2A922-4927-4D76-ADC6-983D44B2FD4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A5F8ED9-D70D-4FF3-8153-72D9859FA89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5F8ED9-D70D-4FF3-8153-72D9859FA89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5F8ED9-D70D-4FF3-8153-72D9859FA89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5F8ED9-D70D-4FF3-8153-72D9859FA89E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60D8B7B-2D2E-4B94-A736-3783FFE1A25C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60D8B7B-2D2E-4B94-A736-3783FFE1A25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60D8B7B-2D2E-4B94-A736-3783FFE1A25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60D8B7B-2D2E-4B94-A736-3783FFE1A25C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE2A922-4927-4D76-ADC6-983D44B2FD4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE2A922-4927-4D76-ADC6-983D44B2FD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE2A922-4927-4D76-ADC6-983D44B2FD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE2A922-4927-4D76-ADC6-983D44B2FD4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
