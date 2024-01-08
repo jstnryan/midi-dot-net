@@ -126,7 +126,7 @@ namespace Midi
         /// <summary>General MIDI percussion 72 ("Long Whistle").</summary>
         LongWhistle = 72,
         /// <summary>General MIDI percussion 73 ("Short Guiro").</summary>
-        ShortGuiro = 74,
+        ShortGuiro = 73,
         /// <summary>General MIDI percussion 74 ("Long Guiro").</summary>
         LongGuiro = 74,
         /// <summary>General MIDI percussion 75 ("Claves").</summary>
